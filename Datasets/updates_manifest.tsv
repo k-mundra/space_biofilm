@@ -1,0 +1,480 @@
+tif_file	sample_id	sample_key	spaceflight	time	material_type	medium	rna_available	rna_sample_name
+LSDS-55_microscopy_1.1.tif	1.1	1.1	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.1001.tif	1.1	1.1	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.1002.tif	1.1	1.1	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.1003.tif	1.1	1.1	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.2.tif	1.2	1.2	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.2001.tif	1.2	1.2	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.2002.tif	1.2	1.2	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.2003.tif	1.2	1.2	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.3.tif	1.3	1.3	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.3001.tif	1.3	1.3	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.3002.tif	1.3	1.3	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.3003.tif	1.3	1.3	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.4.tif	1.4	1.4	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.4001.tif	1.4	1.4	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.4002.tif	1.4	1.4	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.4003.tif	1.4	1.4	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.5.tif	1.5	1.5	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.5001.tif	1.5	1.5	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.5002.tif	1.5	1.5	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.5003.tif	1.5	1.5	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.6.tif	1.6	1.6	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.6001.tif	1.6	1.6	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.6002.tif	1.6	1.6	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.6003.tif	1.6	1.6	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.7.tif	1.7	1.7	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.7001.tif	1.7	1.7	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.7002.tif	1.7	1.7	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.7003.tif	1.7	1.7	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.8.tif	1.8	1.8	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.8001.tif	1.8	1.8	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.8002.tif	1.8	1.8	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_1.8003.tif	1.8	1.8	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.1.tif	13.1	13.1	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.1001.tif	13.1	13.1	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.1002.tif	13.1	13.1	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.1003.tif	13.1	13.1	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.2.tif	13.2	13.2	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.2001.tif	13.2	13.2	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.2002.tif	13.2	13.2	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.2003.tif	13.2	13.2	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.3.tif	13.3	13.3	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.3001.tif	13.3	13.3	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.3002.tif	13.3	13.3	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.3003.tif	13.3	13.3	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.4.tif	13.4	13.4	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.4001.tif	13.4	13.4	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.4002.tif	13.4	13.4	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.4003.tif	13.4	13.4	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.5.tif	13.5	13.5	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.5001.tif	13.5	13.5	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.5002.tif	13.5	13.5	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.5003.tif	13.5	13.5	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.7.tif	13.7	13.7	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.7001.tif	13.7	13.7	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.7002.tif	13.7	13.7	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.7003.tif	13.7	13.7	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.8.tif	13.8	13.8	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.8001.tif	13.8	13.8	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.8002.tif	13.8	13.8	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_13.8003.tif	13.8	13.8	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_14.1.tif	14.1	14.1	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_14.1001.tif	14.1	14.1	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_14.1002.tif	14.1	14.1	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_14.1003.tif	14.1	14.1	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_14.2.tif	14.2	14.2	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_14.2001.tif	14.2	14.2	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_14.2002.tif	14.2	14.2	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_14.2003.tif	14.2	14.2	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_14.3.tif	14.3	14.3	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_14.3001.tif	14.3	14.3	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_14.3002.tif	14.3	14.3	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_14.3003.tif	14.3	14.3	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_14.4.tif	14.4	14.4	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_14.4001.tif	14.4	14.4	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_14.4002.tif	14.4	14.4	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_14.4003.tif	14.4	14.4	Space Flight	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_14.5001.tif	14.5	14.5	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_14.5002.tif	14.5	14.5	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_14.5003.tif	14.5	14.5	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_14.6.tif	14.6	14.6	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_14.6001.tif	14.6	14.6	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_14.6002.tif	14.6	14.6	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_14.6003.tif	14.6	14.6	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_14.7001.tif	14.7	14.7	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_14.70011.tif	14.7	14.7	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_14.7002.tif	14.7	14.7	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_14.70022.tif	14.7	14.7	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_14.7003.tif	14.7	14.7	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_14.7004.tif	14.7	14.7	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_14.7005.tif	14.7	14.7	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_14.8.tif	14.8	14.8	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_14.8001.tif	14.8	14.8	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_14.8002.tif	14.8	14.8	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_14.8003.tif	14.8	14.8	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_14.8004.tif	14.8	14.8	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.1001.tif	15.1	15.1	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.1002.tif	15.1	15.1	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.1003.tif	15.1	15.1	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.3.tif	15.3	15.3	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.3001.tif	15.3	15.3	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.3002.tif	15.3	15.3	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.3003.tif	15.3	15.3	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.4.tif	15.4	15.4	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.4001.tif	15.4	15.4	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.4002.tif	15.4	15.4	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.4003.tif	15.4	15.4	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.5002.tif	15.5	15.5	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.5003.tif	15.5	15.5	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.6.tif	15.6	15.6	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.6001.tif	15.6	15.6	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.6002.tif	15.6	15.6	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.6003.tif	15.6	15.6	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.7.tif	15.7	15.7	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.7001.tif	15.7	15.7	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.7002.tif	15.7	15.7	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.7003.tif	15.7	15.7	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.8.tif	15.8	15.8	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.8001.tif	15.8	15.8	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.8002.tif	15.8	15.8	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_15.8003.tif	15.8	15.8	Space Flight	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_2.1.tif	2.1	2.1	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_2.1001.tif	2.1	2.1	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_2.1002.tif	2.1	2.1	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_2.1003.tif	2.1	2.1	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_2.2.tif	2.2	2.2	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_2.2001.tif	2.2	2.2	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_2.2002.tif	2.2	2.2	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_2.2003.tif	2.2	2.2	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_2.3.tif	2.3	2.3	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_2.3001.tif	2.3	2.3	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_2.3002.tif	2.3	2.3	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_2.3003.tif	2.3	2.3	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_2.4.tif	2.4	2.4	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_2.4001.tif	2.4	2.4	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_2.4002.tif	2.4	2.4	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_2.4003.tif	2.4	2.4	Space Flight	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_2.5.tif	2.5	2.5	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_2.5003.tif	2.5	2.5	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_2.6002.tif	2.6	2.6	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_2.6003.tif	2.6	2.6	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_2.7001.tif	2.7	2.7	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.1.tif	3.1	3.1	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.1001.tif	3.1	3.1	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.1002.tif	3.1	3.1	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.1003.tif	3.1	3.1	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.2.tif	3.2	3.2	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.2001.tif	3.2	3.2	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.2002.tif	3.2	3.2	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.2003.tif	3.2	3.2	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.3.tif	3.3	3.3	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.3001.tif	3.3	3.3	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.3002.tif	3.3	3.3	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.3003.tif	3.3	3.3	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.4.tif	3.4	3.4	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.4001.tif	3.4	3.4	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.5.tif	3.5	3.5	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.5001.tif	3.5	3.5	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.5002.tif	3.5	3.5	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.5003.tif	3.5	3.5	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.6.tif	3.6	3.6	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.6001.tif	3.6	3.6	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.6002.tif	3.6	3.6	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.6003.tif	3.6	3.6	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.6004.tif	3.6	3.6	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.7.tif	3.7	3.7	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.7001.tif	3.7	3.7	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.7002.tif	3.7	3.7	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.7003.tif	3.7	3.7	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.8.tif	3.8	3.8	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.8001.tif	3.8	3.8	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.8002.tif	3.8	3.8	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_3.8003.tif	3.8	3.8	Space Flight	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_7.1.tif	7.1	7.1	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.1001.tif	7.1	7.1	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.1002.tif	7.1	7.1	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.1003.tif	7.1	7.1	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.2.tif	7.2	7.2	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.2001.tif	7.2	7.2	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.2002.tif	7.2	7.2	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.2003.tif	7.2	7.2	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.3.tif	7.3	7.3	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.3003.tif	7.3	7.3	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.4.tif	7.4	7.4	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.4001.tif	7.4	7.4	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.4002.tif	7.4	7.4	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.4003.tif	7.4	7.4	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.5.tif	7.5	7.5	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.5001.tif	7.5	7.5	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.5002.tif	7.5	7.5	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.5003.tif	7.5	7.5	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.6.tif	7.6	7.6	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.6001.tif	7.6	7.6	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.6003.tif	7.6	7.6	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.7.tif	7.7	7.7	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.7001.tif	7.7	7.7	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.7002.tif	7.7	7.7	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.7003.tif	7.7	7.7	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.8001.tif	7.8	7.8	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.8002.tif	7.8	7.8	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.8003.tif	7.8	7.8	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_7.8004.tif	7.8	7.8	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_8.1.tif	8.1	8.1	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_8.1001.tif	8.1	8.1	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_8.1002.tif	8.1	8.1	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_8.1003.tif	8.1	8.1	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_8.3.tif	8.3	8.3	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_8.3001.tif	8.3	8.3	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_8.3002.tif	8.3	8.3	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_8.3003.tif	8.3	8.3	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_8.4.tif	8.4	8.4	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_8.4001.tif	8.4	8.4	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_8.4002.tif	8.4	8.4	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_8.4003.tif	8.4	8.4	Space Flight	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_8.5.tif	8.5	8.5	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_8.5001.tif	8.5	8.5	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_8.5002.tif	8.5	8.5	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_8.5003.tif	8.5	8.5	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_8.6.tif	8.6	8.6	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_8.6001.tif	8.6	8.6	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_8.6002.tif	8.6	8.6	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_8.6004.tif	8.6	8.6	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_8.7002.tif	8.7	8.7	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_8.8003.tif	8.8	8.8	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_8.8004.tif	8.8	8.8	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.2.tif	9.2	9.2	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.2001.tif	9.2	9.2	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.2002.tif	9.2	9.2	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.2003.tif	9.2	9.2	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.3.tif	9.3	9.3	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.3001.tif	9.3	9.3	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.3002.tif	9.3	9.3	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.3003.tif	9.3	9.3	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.4.tif	9.4	9.4	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.4002.tif	9.4	9.4	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.4003.tif	9.4	9.4	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.5.tif	9.5	9.5	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.5001.tif	9.5	9.5	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.5002.tif	9.5	9.5	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.5003.tif	9.5	9.5	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.6.tif	9.6	9.6	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.6001.tif	9.6	9.6	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.6002.tif	9.6	9.6	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.6003.tif	9.6	9.6	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.8.tif	9.8	9.8	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.8001.tif	9.8	9.8	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.8002.tif	9.8	9.8	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_9.8003.tif	9.8	9.8	Space Flight	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G1..1001.tif	G1.1	G1.1	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.1.tif	G1.1	G1.1	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.1002.tif	G1.1	G1.1	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.1003.tif	G1.1	G1.1	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.2.tif	G1.2	G1.2	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.2001.tif	G1.2	G1.2	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.2002.tif	G1.2	G1.2	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.2003.tif	G1.2	G1.2	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.3.tif	G1.3	G1.3	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.3001.tif	G1.3	G1.3	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.3002.tif	G1.3	G1.3	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.3003.tif	G1.3	G1.3	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.5.tif	G1.5	G1.5	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.5001.tif	G1.5	G1.5	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.5002.tif	G1.5	G1.5	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.5003.tif	G1.5	G1.5	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.6.tif	G1.6	G1.6	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.6001.tif	G1.6	G1.6	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.6002.tif	G1.6	G1.6	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.6003.tif	G1.6	G1.6	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.7.tif	G1.7	G1.7	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.7001.tif	G1.7	G1.7	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.7002.tif	G1.7	G1.7	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.7003.tif	G1.7	G1.7	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.8.tif	G1.8	G1.8	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.8001.tif	G1.8	G1.8	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.8002.tif	G1.8	G1.8	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G1.8003.tif	G1.8	G1.8	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.1.tif	G13.1	G13.1	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.1001.tif	G13.1	G13.1	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.1002.tif	G13.1	G13.1	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.1003.tif	G13.1	G13.1	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.2.tif	G13.2	G13.2	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.2001.tif	G13.2	G13.2	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.2002.tif	G13.2	G13.2	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.2003.tif	G13.2	G13.2	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.3.tif	G13.3	G13.3	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.3001.tif	G13.3	G13.3	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.3002.tif	G13.3	G13.3	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.3003.tif	G13.3	G13.3	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.4002.tif	G13.4	G13.4	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.4003.tif	G13.4	G13.4	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.5.tif	G13.5	G13.5	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.5001.tif	G13.5	G13.5	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.5002.tif	G13.5	G13.5	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.5003.tif	G13.5	G13.5	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.6.tif	G13.6	G13.6	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.6001.tif	G13.6	G13.6	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.6002.tif	G13.6	G13.6	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.6003.tif	G13.6	G13.6	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.7.tif	G13.7	G13.7	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.7001.tif	G13.7	G13.7	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.7002.tif	G13.7	G13.7	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.7003.tif	G13.7	G13.7	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.8.tif	G13.8	G13.8	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.8001.tif	G13.8	G13.8	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.8002.tif	G13.8	G13.8	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G13.8003.tif	G13.8	G13.8	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G14.1001.tif	G14.1	G14.1	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G14.1002.tif	G14.1	G14.1	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G14.1003.tif	G14.1	G14.1	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G14.2.tif	G14.2	G14.2	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G14.2001.tif	G14.2	G14.2	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G14.2002.tif	G14.2	G14.2	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G14.2003.tif	G14.2	G14.2	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G14.3.tif	G14.3	G14.3	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G14.3001.tif	G14.3	G14.3	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G14.3002.tif	G14.3	G14.3	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G14.3003.tif	G14.3	G14.3	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G14.4.tif	G14.4	G14.4	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G14.4001.tif	G14.4	G14.4	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G14.4002.tif	G14.4	G14.4	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G14.4003.tif	G14.4	G14.4	Ground	3	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G14.5002.tif	G14.5	G14.5	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G14.5003.tif	G14.5	G14.5	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G14.6.tif	G14.6	G14.6	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G14.6001.tif	G14.6	G14.6	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G14.6002.tif	G14.6	G14.6	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G14.6003.tif	G14.6	G14.6	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G14.8001.tif	G14.8	G14.8	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G14.8002.tif	G14.8	G14.8	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G14.8003.tif	G14.8	G14.8	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.1.tif	G15.1	G15.1	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.1001.tif	G15.1	G15.1	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.1002.tif	G15.1	G15.1	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.1003.tif	G15.1	G15.1	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.3.tif	G15.3	G15.3	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.3001.tif	G15.3	G15.3	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.3002.tif	G15.3	G15.3	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.4.tif	G15.4	G15.4	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.4001.tif	G15.4	G15.4	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.4002.tif	G15.4	G15.4	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.4003.tif	G15.4	G15.4	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.5.tif	G15.5	G15.5	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.5001.tif	G15.5	G15.5	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.5002.tif	G15.5	G15.5	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.5003.tif	G15.5	G15.5	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.6.tif	G15.6	G15.6	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.6001.tif	G15.6	G15.6	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.6002.tif	G15.6	G15.6	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.6003.tif	G15.6	G15.6	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.7.tif	G15.7	G15.7	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.7001.tif	G15.7	G15.7	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.7002.tif	G15.7	G15.7	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.7003.tif	G15.7	G15.7	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G15.8003.tif	G15.8	G15.8	Ground	3	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G2.1.tif	G2.1	G2.1	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G2.1001.tif	G2.1	G2.1	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G2.1002.tif	G2.1	G2.1	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G2.1003.tif	G2.1	G2.1	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G2.2.tif	G2.2	G2.2	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G2.2001.tif	G2.2	G2.2	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G2.3.tif	G2.3	G2.3	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G2.3001.tif	G2.3	G2.3	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G2.3002.tif	G2.3	G2.3	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G2.3003.tif	G2.3	G2.3	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G2.4.tif	G2.4	G2.4	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G2.4003.tif	G2.4	G2.4	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_g2.4001.tif	G2.4	G2.4	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_g2.4002.tif	G2.4	G2.4	Ground	1	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G2.5003.tif	G2.5	G2.5	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G2.6.tif	G2.6	G2.6	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G2.6001.tif	G2.6	G2.6	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G2.7003.tif	G2.7	G2.7	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G2.8001.tif	G2.8	G2.8	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G2.8004.tif	G2.8	G2.8	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G2.8005.tif	G2.8	G2.8	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G2.8006.tif	G2.8	G2.8	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.2.tif	G3.2	G3.2	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.2001.tif	G3.2	G3.2	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.2002.tif	G3.2	G3.2	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.2003.tif	G3.2	G3.2	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.3001.tif	G3.3	G3.3	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.4.tif	G3.4	G3.4	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.4001.tif	G3.4	G3.4	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.4002.tif	G3.4	G3.4	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.4003.tif	G3.4	G3.4	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.5.tif	G3.5	G3.5	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.5001.tif	G3.5	G3.5	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.5002.tif	G3.5	G3.5	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.5003.tif	G3.5	G3.5	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.6.tif	G3.6	G3.6	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.6001.tif	G3.6	G3.6	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.6002.tif	G3.6	G3.6	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.6003.tif	G3.6	G3.6	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.7.tif	G3.7	G3.7	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.7002.tif	G3.7	G3.7	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.7003.tif	G3.7	G3.7	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.8001.tif	G3.8	G3.8	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G3.8002.tif	G3.8	G3.8	Ground	1	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G7.1.tif	G7.1	G7.1	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.1001.tif	G7.1	G7.1	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.1002.tif	G7.1	G7.1	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.1003.tif	G7.1	G7.1	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.2.tif	G7.2	G7.2	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.2001.tif	G7.2	G7.2	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.2002.tif	G7.2	G7.2	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.2003.tif	G7.2	G7.2	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.3.tif	G7.3	G7.3	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.3001.tif	G7.3	G7.3	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.3002.tif	G7.3	G7.3	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.3003.tif	G7.3	G7.3	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.5.tif	G7.5	G7.5	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.5001.tif	G7.5	G7.5	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.5002.tif	G7.5	G7.5	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.5003.tif	G7.5	G7.5	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.6.tif	G7.6	G7.6	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.6001.tif	G7.6	G7.6	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.6003.tif	G7.6	G7.6	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.7.tif	G7.7	G7.7	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.7001.tif	G7.7	G7.7	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.7002.tif	G7.7	G7.7	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.7003.tif	G7.7	G7.7	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.8.tif	G7.8	G7.8	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.8001.tif	G7.8	G7.8	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.8002.tif	G7.8	G7.8	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G7.8003.tif	G7.8	G7.8	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G8.1.tif	G8.1	G8.1	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G8.1001.tif	G8.1	G8.1	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G8.1002.tif	G8.1	G8.1	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G8.1003.tif	G8.1	G8.1	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G8.2.tif	G8.2	G8.2	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G8.2001.tif	G8.2	G8.2	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G8.2002.tif	G8.2	G8.2	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G8.2003.tif	G8.2	G8.2	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G8.3.tif	G8.3	G8.3	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G8.3001.tif	G8.3	G8.3	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G8.3002.tif	G8.3	G8.3	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G8.3003.tif	G8.3	G8.3	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G8.4.tif	G8.4	G8.4	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G8.4001.tif	G8.4	G8.4	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G8.4002.tif	G8.4	G8.4	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G8.4003.tif	G8.4	G8.4	Ground	2	Cells	LB broth (Lennox) supplemented with KNO3	False	
+LSDS-55_microscopy_G8.5002.tif	G8.5	G8.5	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G8.5003.tif	G8.5	G8.5	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G8.6.tif	G8.6	G8.6	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G8.6001.tif	G8.6	G8.6	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G8.6002.tif	G8.6	G8.6	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G8.6003.tif	G8.6	G8.6	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G8.6004.tif	G8.6	G8.6	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G8.6005.tif	G8.6	G8.6	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G8.7.tif	G8.7	G8.7	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G8.7001.tif	G8.7	G8.7	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G8.7002.tif	G8.7	G8.7	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G8.7003.tif	G8.7	G8.7	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.1.tif	G9.1	G9.1	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.1001.tif	G9.1	G9.1	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.1002.tif	G9.1	G9.1	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.1003.tif	G9.1	G9.1	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.2.tif	G9.2	G9.2	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.2001.tif	G9.2	G9.2	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.2002.tif	G9.2	G9.2	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.2003.tif	G9.2	G9.2	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.3003.tif	G9.3	G9.3	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.4.tif	G9.4	G9.4	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.4001.tif	G9.4	G9.4	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.5.tif	G9.5	G9.5	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.5001.tif	G9.5	G9.5	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.5002.tif	G9.5	G9.5	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.5003.tif	G9.5	G9.5	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.6.tif	G9.6	G9.6	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.6001.tif	G9.6	G9.6	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.6002.tif	G9.6	G9.6	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.6003.tif	G9.6	G9.6	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.7.tif	G9.7	G9.7	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.7001.tif	G9.7	G9.7	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.7002.tif	G9.7	G9.7	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.7003.tif	G9.7	G9.7	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.8.tif	G9.8	G9.8	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.8001.tif	G9.8	G9.8	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.8002.tif	G9.8	G9.8	Ground	2	Cells	mAUMg-hi Pi	False	
+LSDS-55_microscopy_G9.8003.tif	G9.8	G9.8	Ground	2	Cells	mAUMg-hi Pi	False	
