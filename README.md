@@ -70,3 +70,18 @@ e.g. (Space Flight, SS316, LB+KNO₃) → {1.*, 7.*, 13.*}
 Then you have clean trajectories like:
 
 “Spaceflight SS316, LB+KNO₃: Day 1 → Day 2 → Day 3 = {1., 7., 13.*}”
+
+
+
+## pngs_max
+multilayer .tif files are converted to .png files by taking the maximum intensity of each pixel from the layers.
+
+## pngs_mean
+multilayer .tif files are converted to .png files by taking the average intensity of each pixel across layers.
+
+
+## pngs_max_split
+images split into 256X256 from pngs_max
+
+## pngs_mean_split
+images split into 256X256 from pngs_mean
