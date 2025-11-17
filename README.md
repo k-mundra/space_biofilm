@@ -49,3 +49,24 @@ Outputs
 
 ## Background-physics-Conv_LSTM_with_biofilm
 The LSTM model adds a background noise which in principle this reduces the overall loss (add more information). However this noise is deterimental to the lond time frame prediction. To resolve this problem, this model will incorporate diffusion based equation into loss, ensuring those background noise are not favoured.
+
+## Data 
+If you want to build growth trajectories for modeling:
+
+Parse s_OSD-627.txt to get:
+
+Spaceflight (Ground vs Space Flight)
+
+Material
+
+Time (1, 2, 3 days)
+
+Group by (Spaceflight, Material, Medium)
+
+Inside each group, sort by Time and then link the corresponding sample IDs:
+
+e.g. (Space Flight, SS316, LB+KNO₃) → {1.*, 7.*, 13.*}
+
+Then you have clean trajectories like:
+
+“Spaceflight SS316, LB+KNO₃: Day 1 → Day 2 → Day 3 = {1., 7., 13.*}”
