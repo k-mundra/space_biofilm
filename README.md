@@ -6,6 +6,27 @@ Ankit Bansal, Aarushi Biswas, Aarushi Gajri, Kashvi Mundra
 
 Overleaf document: https://www.overleaf.com/6681458395rnncqfcpswqm#5edb39
 
+## Overview
+
+Biofilm growth poses significant risks to astronaut health, life-support systems, and spacecraft materials during long-duration missions. This creates an imperative to study their growth
+parameters; however, experimental characterization of biofilm behavior in microgravity remains costly and limited, restricting the ability to evaluate microbial risk in spaceflight environments. To mitigate the challenge of data availability, we develop a multimodal scientific machine learning framework that predicts biofilm growth on engineering surfaces in microgravity
+by leveraging Earth-based biofilm measurements, along with available spaceflight observations.
+Our approach integrates confocal microscopy–derived morphological features, material surface
+descriptors, and optional gene-expression profiles into a convolutional Long Short-Term Memory (ConvLSTM) architecture capable of modeling biofilm structure and coverage. Domain
+insights from diffusion–reaction transport physics are incorporated into the design of feature
+representations and learning objectives. Using this framework, we evaluate whether growth
+characteristics observed on Earth can be translated to microgravity conditions and estimate
+biofilm coverage on materials not experimentally tested in space. Time series prediction using
+convLSTM showed more than 90% accuracy in predicting growth patterns. !! [Insert key
+quantitative results here] !!. These findings demonstrate the potential of scientific machine
+learning to guide material selection and microbial risk mitigation for future space missions.
+
+## Code Breakdown
+In this repository, there are six folders. Each of the folders are described below. 
+
+Archive: This folder has archival code that was not used for our final submission. 
+Baseline-ConvLSTM_Physics: This folder contains 
+
 ## Datasets provided by NASA
 - OSD-554
     - rna-seq data
