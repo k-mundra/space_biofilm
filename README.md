@@ -21,6 +21,12 @@ convLSTM showed more than 90% accuracy in predicting growth patterns. !! [Insert
 quantitative results here] !!. These findings demonstrate the potential of scientific machine
 learning to guide material selection and microbial risk mitigation for future space missions.
 
+## Code Breakdown
+In this repository, there are six folders. Each of the folders are described below. 
+
+Archive: This folder has archival code that was not used for our final submission. 
+Baseline-ConvLSTM_Physics: This folder contains 
+
 ## Datasets provided by NASA
 - OSD-554
     - rna-seq data
