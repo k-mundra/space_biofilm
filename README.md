@@ -78,7 +78,7 @@ xyz
 
 ## Acknowledgements
 
-Thank you to Dr. Pamela Flores, Dr. Luis Zea (CU Boulder) and NASA for listing these datasets as open-access!
+Thank you to Dr. Pamela Flores (CU Boulder), Dr. Luis Zea (CU Boulder) and NASA for listing these datasets as open-access, as well as guiding us through questions we had regarding the datasets.
 
 
 ## Appendix
