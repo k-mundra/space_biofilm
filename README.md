@@ -1,24 +1,21 @@
-Space Biofilms: Predicting Bacterium-Material
+## Space Biofilms: Predicting Bacterium-Material
 Interaction Dynamics in Microgravity Using Sequential
 Experimental Data
 
-Scientific Machine Learning Course Project
+Scientific Machine Learning Course Project (CSE 8803-SML)
 
 Ankit Bansal, Aarushi Biswas, Aarushi Gajri, Kashvi Mundra
 
-Overleaf document: https://www.overleaf.com/6681458395rnncqfcpswqm#5edb39 
+Overleaf document: https://www.overleaf.com/6681458395rnncqfcpswqm#5edb39
 
-
-Missing : Code documentation 
-
-## Datasets
+## Datasets provided by NASA
 - OSD-554
     - rna-seq data
 - OSD-627
     - microscopy image data
+ 
 
-
-## synthetic data code.
+## Synthetic Data Code
 This code is a based on diffusion equation solving to create biofilm growth data.
 
 inputs
@@ -28,7 +25,7 @@ inputs
 outputs
 -- 144X144 pixel image of the stochastic biofilm growth, timesteps number of images for each trajectory. In total n_runs trajectories.
 
-everything is saved in bacteria_growth folder.
+everything is saved in the bacteria_growth folder.
 
 - bacteria_growth
     - run_000
@@ -37,7 +34,6 @@ everything is saved in bacteria_growth folder.
         - ...
     - run_001
     - ...
-
 
 ## Baseline-convLSTM
 this is directly downloaded from the reference model. No changes are made. However when the code was tested, it was not producing results shown online.
