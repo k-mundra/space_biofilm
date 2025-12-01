@@ -76,7 +76,12 @@ This file reads the ground and flight data to create a ground-> flight regressio
 
 xyz
 
+## Acknowledgements
 
+Thank you to Dr. Pamela Flores, Dr. Luis Zea (CU Boulder) and NASA for listing these datasets as open-access!
+
+
+## Appendix
 Previous models used in the Archive folder and their documentation is below. 
 
 
