@@ -1,0 +1,29 @@
+{
+  "rows_total": 476,
+  "rows_used": 36,
+  "conditions": {
+    "ground": 18,
+    "flight": 18
+  },
+  "base_materials": {
+    "SS316": 6,
+    "p-SS316": 6,
+    "LIS": 6,
+    "Cellulose membrane": 6,
+    "Silicone": 6,
+    "Silicone DLIP": 6
+  },
+  "days": {
+    "1.0": 12,
+    "2.0": 12,
+    "3.0": 12
+  },
+  "features_used_for_G2F": [
+    "Biofilm Maximum thickness (\u00b5m)",
+    "roughness coefficient Ra*"
+  ],
+  "features_missing_from_expected": [
+    "Biofilm mass (\u00b5m^3/\u00b5m^2)",
+    "Biofilm biomass mean thickness (\u00b5m)"
+  ]
+}

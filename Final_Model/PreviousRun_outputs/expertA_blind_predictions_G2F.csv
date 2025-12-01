@@ -1,0 +1,19 @@
+Material and Incubation day,BaseMaterial,DayInt,condition,Biofilm surface area coverage (%),pred_expertA_blind_G2F
+SS316 day1,SS316,1.0,flight,22.980000000000004,37.481422222222186
+p-SS316 day1,p-SS316,1.0,flight,14.920000000000002,19.742666666666683
+LIS day1,LIS,1.0,flight,4.010000000000005,14.345072222222237
+Celullose membrane day1,Cellulose membrane,1.0,flight,100.0,98.1756291666667
+Silicone day1,Silicone,1.0,flight,88.18,93.55282027777828
+Silicone DLIP  day1,Silicone DLIP,1.0,flight,99.9,98.81213944444484
+SS316 day2,SS316,2.0,flight,18.03,34.22907222222229
+p-SS316 day2,p-SS316,2.0,flight,23.879999999999995,39.20404999999996
+LIS day2,LIS,2.0,flight,5.180000000000007,14.69180555555556
+Celullose membrane day2,Cellulose membrane,2.0,flight,46.38,38.67871666666674
+Silicone day2,Silicone,2.0,flight,99.61,98.41698527777794
+Silicone DLIP  day2,Silicone DLIP,2.0,flight,94.15,93.5869536111115
+SS316 day3,SS316,3.0,flight,17.58,21.552133333333373
+p-SS316 day3,p-SS316,3.0,flight,16.299999999999997,22.399550000000044
+LIS day3,LIS,3.0,flight,4.480000000000004,11.963466666666648
+Celullose membrane day3,Cellulose membrane,3.0,flight,29.61,34.15808888888916
+Silicone day3,Silicone,3.0,flight,100.0,99.21044166666626
+Silicone DLIP  day3,Silicone DLIP,3.0,flight,95.38,93.06636194444467

@@ -1,0 +1,69 @@
+{
+  "g2f_regression": {
+    "rmse": 7.108964464386043,
+    "mae": 5.386086111111101,
+    "r2": 0.9673637465208916,
+    "n": 18,
+    "n_train_ground": 18,
+    "n_test_flight": 18,
+    "n_features": 2
+  },
+  "domain_model_base_ground": {
+    "rmse": 3.347731478860582,
+    "mae": 2.073330846928286,
+    "r2": 0.9894699335200908,
+    "n": 18,
+    "cv_best_params": {
+      "model__max_depth": 5,
+      "model__max_features": null,
+      "model__min_samples_leaf": 2
+    }
+  },
+  "domain_model_base_flight": {
+    "rmse": 2.1261980900159356,
+    "mae": 1.2460715042622188,
+    "r2": 0.9970805902220546,
+    "n": 18,
+    "cv_best_params": {
+      "model__max_depth": 5,
+      "model__max_features": null,
+      "model__min_samples_leaf": 2
+    }
+  },
+  "trajectory_base_methodA": {
+    "rmse": 43.47417728653114,
+    "mae": 32.745,
+    "r2": -0.2585982876309145,
+    "n": 6
+  },
+  "trajectory_base_methodB": {
+    "rmse": 38.01713517174416,
+    "mae": 28.926666666666666,
+    "r2": 0.03753894267906133,
+    "n": 6
+  },
+  "expertA_randomTrain": {
+    "rmse": 1.7717008217472272,
+    "mae": 1.2357929857141932,
+    "r2": 0.9978363683344587,
+    "n": 25
+  },
+  "expertA_randomTest": {
+    "rmse": 5.36363421909758,
+    "mae": 3.418283979076345,
+    "r2": 0.9782416724241947,
+    "n": 11
+  },
+  "expertA_G2F_train_ground": {
+    "rmse": 3.432402583686836,
+    "mae": 2.1858036728396084,
+    "r2": 0.9889305429012261,
+    "n": 18
+  },
+  "expertA_G2F_test_flight": {
+    "rmse": 8.02132253090628,
+    "mae": 6.313495570987655,
+    "r2": 0.9584491828134459,
+    "n": 18
+  }
+}
