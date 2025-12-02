@@ -11,7 +11,9 @@ Ankit Bansal, Aarushi Biswas, Aarushi Gajri, Kashvi Mundra
 ## Overview
 
 Biofilm growth poses significant risks to astronaut health, life-support systems, and spacecraft materials during long-duration missions. This creates an imperative to study their growth parameters; however, experimental characterization of biofilm behavior in microgravity remains costly and limited, restricting the ability to evaluate microbial risk in spaceflight environments.
+
 To mitigate the challenge of data availability, we develop a multimodal scientific machine learning framework that predicts biofilm growth on engineering surfaces in microgravity by leveraging Earth-based biofilm measurements, along with available spaceflight observations. Our approach integrates confocal microscopy-derived morphological features, material surface descriptors, and optional gene-expression profiles into a convolutional Long Short-Term Memory (ConvLSTM) architecture capable of modeling biofilm structure and coverage. Domain insights from diffusion-reaction transport physics are incorporated into the design of feature representations and learning objectives.
+
 Using this framework, we evaluate whether growth characteristics observed on Earth can be translated to microgravity conditions and estimate biofilm coverage on materials not experimentally tested in space. Time series prediction using ConvLSTM showed more than 90% accuracy in predicting growth patterns. Notably, a ground-only Random Forest model explained 99% of variance in terrestrial biofilm coverage and retained 96% explanatory power when predicting flight biofilm coverage despite never being exposed to microgravity data during training (R²<sub>ground</sub> = 0.99, R²<sub>flight</sub> = 0.96). These findings demonstrate the potential of scientific machine learning to guide material selection and microbial risk mitigation for future space missions.
 
 ---
