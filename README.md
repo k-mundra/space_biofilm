@@ -65,7 +65,7 @@ We needed to verify that ConvLSTMs could learn biofilm growth patterns, so we ge
 
 **Output:** 144×144 pixel images saved to `bacteria_growth/run_XXX/frame_XXX.png`
 
-This validated our architecture - if we ever get real time-series data from space, ConvLSTM should work.
+This validated our architecture.
 
 ---
 
@@ -73,7 +73,7 @@ This validated our architecture - if we ever get real time-series data from spac
 
 **File:** `Baseline-ConvLSTM_Physics/convlstm_physics_integration.ipynb`
 
-Regular LSTMs produce noisy outputs that don't respect physics. We added two physics-based loss terms:
+Regular LSTMs produce noisy outputs, so we added two physics-based loss terms:
 
 1. **Laplacian smoothing** - Penalizes sharp edges, enforces smooth diffusive growth
    ```
@@ -126,7 +126,7 @@ python methodA.py
 
 **File:** `Final_Model/methodB.py`
 
-This is our best model. Key idea: train on Earth data, then test on space data to see if the patterns generalize.
+Key idea: train on Earth data, then test on space data to see if the patterns generalize.
 
 **Training:**
 - Data: Ground samples only
@@ -148,7 +148,7 @@ python methodB.py
 - **Flight testing: R² = 0.96** (never saw space data during training!)
 - Flight RMSE: 8.0%, MAE: 6.3%
 
-The model learned relationships from Earth that generalized to microgravity. This is huge because it means we don't need to test every material in space.
+The model learned relationships from Earth that generalized to microgravity.
 
 **Outputs:**
 - Initial results: `lsds55_outputs_expertA_methodB/`
@@ -217,26 +217,26 @@ jupyter notebook Final_Model/sciml_MoE.ipynb
 
 ---
 
-## Future Work
+## Future Directions
 
-- Get actual time-series data from space (same sample over time) to use ConvLSTM properly
-- Test on more materials to improve generalization
-- Integrate RNA-seq data for mechanism-aware predictions
-- Combine physics PDEs with neural networks (hybrid models)
+- Acquire Temporally-Connected Data: Enable true ConvLSTM-based morphological prediction
+- Multi-Material Transfer Learning: Improve generalization across diverse spacecraft materials
+- Physics-Hybrid Models: Combine ConvLSTM with diffusion-reaction PDEs
+- Gene Expression Integration: Incorporate RNA-seq data for mechanism-aware predictions
+- Active Learning: Guide future space experiments by identifying high-uncertainty material combinations
 
 ---
 
 ## Conclusion
 
-We built a machine learning pipeline that predicts biofilm growth in space using only Earth-based training data. The Expert A model (Method B) achieved 96% accuracy on flight predictions, showing that fundamental biological patterns persist across gravity regimes. This could help NASA and other space agencies select materials for spacecraft without expensive orbital experiments.
-
-The ConvLSTM architecture is validated and can be used when proper temporal datasets become available. Overall, this demonstrates that scientific machine learning can meaningfully contribute to space mission planning and astronaut safety.
+This project demonstrates that scientific machine learning can effectively bridge the gap between Earth-based biofilm experiments and spaceflight observations. Despite the absence of true temporal connectivity in the available data, our Expert A model achieved 96% explanatory power on flight biofilm coverage after training exclusively on ground data. This suggests that fundamental morphology-coverage relationships are preserved across gravity regimes, enabling predictive material selection for future space missions.
+The validated ConvLSTM architecture on synthetic data provides a proof-of-concept for spatiotemporal biofilm modeling, which can be applied when temporally-connected datasets become available. Together, these approaches establish a scalable SciML framework for microbial risk assessment in spaceflight environments.
 
 ---
 
 ## Acknowledgments
 
-Thanks to Dr. Pamela Flores (CU Boulder), Dr. Luis Zea (CU Boulder), and NASA for the open-access OSD-554 and OSD-627 datasets.
+Thank you to Dr. Pamela Flores (CU Boulder), Dr. Luis Zea (CU Boulder), and NASA for the open-access OSD-554 and OSD-627 datasets.
 
 ---
 
