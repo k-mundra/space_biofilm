@@ -169,10 +169,12 @@ python methodB.py
 
 ## Prerequisites to Run Models
 
+Python 3.8+
+
 ```bash
 pip install tensorflow scikit-learn numpy pandas matplotlib opencv-python
 ```
-Python 3.8+
+
 ---
 
 ## Takeaways
