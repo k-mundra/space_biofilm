@@ -1,141 +1,220 @@
-## Space Biofilms: Predicting Bacterium-Material Interaction Dynamics in Microgravity Using Sequential Experimental Data
-
-Scientific Machine Learning Course Project (CSE 8803-SML)
-
-Ankit Bansal, Aarushi Biswas, Aarushi Gajri, Kashvi Mundra
-
-
-## Overview
+<h1>Scientific Machine Learning for Microgravity Biofilm Prediction</h1>
 
 <p>
-  Biofilm growth poses significant risks to astronaut health, life-support systems, and spacecraft materials during long-duration missions. This creates an imperative to study their growth parameters; however, experimental characterization of biofilm behavior in microgravity remains costly and limited, restricting the ability to evaluate microbial risk in spaceflight environments.
+Biofilm growth poses significant risks to astronaut health, life-support systems, and spacecraft materials during long-duration missions. Experimental characterization of biofilm behavior in microgravity is expensive and sparse, making predictive modeling essential for microbial risk mitigation.
 </p>
 
 <p>
-  To mitigate the challenge of data availability, we develop a multimodal scientific machine learning framework that predicts biofilm growth on engineering surfaces in microgravity by leveraging Earth-based biofilm measurements, along with available spaceflight observations. Our approach integrates confocal microscopy–derived morphological features, material surface descriptors, and optional gene-expression profiles into a convolutional Long Short-Term Memory (ConvLSTM) architecture capable of modeling biofilm structure and coverage. Domain insights from diffusion–reaction transport physics are incorporated into the design of feature representations and learning objectives.
+This repository develops a multimodal <strong>scientific machine learning (SciML)</strong> framework that uses Earth-based biofilm data, limited spaceflight observations, and material surface properties to estimate microgravity biofilm growth. Our pipeline combines synthetic ConvLSTM modeling, physics-informed learning, and a Random Forest regression approach for cross-gravity generalization.
 </p>
+
+<hr>
+
+<h2>⭐ Project at a Glance</h2>
+
+<ul>
+  <li><strong>Goal:</strong> Predict microgravity biofilm coverage using only Earth-based measurements and material properties.</li>
+  <li><strong>Data Sources:</strong>
+    <ul>
+      <li>NASA OSD-627 (confocal biofilm morphology)</li>
+      <li>NASA OSD-554 (RNA transcriptomics; optional multimodal input)</li>
+    </ul>
+  </li>
+  <li><strong>Methods:</strong>
+    <ul>
+      <li>Synthetic ConvLSTM (sanity check for temporal prediction)</li>
+      <li>Physics-informed ConvLSTM (Laplacian smoothing)</li>
+      <li>Random Forest Ground→Flight model (core method)</li>
+    </ul>
+  </li>
+  <li><strong>Key Result:</strong>  
+    A model trained exclusively on ground data explained <strong>96% of variance</strong> in flight biofilm coverage  
+    (<em>R²_ground = 0.99, R²_flight = 0.96</em>).
+  </li>
+</ul>
+
+<hr>
+
+<h2>📂 Repository Structure</h2>
+
+<pre>
+├── Synthetic/
+│   ├── Synthetic_ConvLSTM_Code/
+│   └── Synthetic Data Code Explanation & Results
+│
+├── Physics/
+│   ├── Code
+│   └── Experiments with Laplacian Kernel (Physics-Informed ConvLSTM)
+│
+├── Final_Model/
+│   ├── strict_ground_to_flight_regression.py
+│   ├── cleaned_combined.csv
+│   ├── Outputs (metrics, plots, prediction tables)
+│   └── Material property–enhanced multimodal regression
+│
+└── figures/
+    ├── synthetic_results.png
+    ├── physics_kernel_example.png
+    └── rf_results.png
+</pre>
+
+<hr>
+
+<h2>🧪 Datasets</h2>
+
+<h3>1. NASA OSD-627 — Confocal Microscopy Biofilm Dataset</h3>
+<ul>
+  <li>3D confocal scans of biofilms grown on engineering surfaces</li>
+  <li>Collected on <strong>ground</strong> and <strong>spaceflight</strong></li>
+  <li>Includes:
+    <ul>
+      <li>Percent surface coverage</li>
+      <li>Maximum thickness</li>
+      <li>Roughness coefficient (Ra*)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>2. NASA OSD-554 — RNA Transcriptomics (Optional)</h3>
+<p>Gene expression profiles for matched conditions; used for multimodal extensions.</p>
+
+<h3>3. Material Property Features</h3>
+
+<table>
+  <tr><th>Feature</th><th>Description</th></tr>
+  <tr><td>Material_Roughness</td><td>Surface nano/micro roughness</td></tr>
+  <tr><td>Contact_Angle</td><td>Measured wettability</td></tr>
+  <tr><td>Cos(theta)</td><td>Wetting energy representation</td></tr>
+  <tr><td>Wadh</td><td>Work of adhesion</td></tr>
+</table>
+
+<hr>
+
+<h2>🧠 Methodology</h2>
+
+<h3>1. Synthetic ConvLSTM (Baseline Sanity Check)</h3>
+<p>
+To verify temporal learnability, we generated <strong>synthetic biofilm sequences</strong> using a diffusion-reaction surrogate model.  
+A ConvLSTM was trained to predict future frames.
+</p>
+<ul>
+  <li>&gt;90% accuracy on synthetic forecasting</li>
+  <li>Demonstrated learnability of spatiotemporal transitions</li>
+  <li>Provided architectural validation before real-data training</li>
+</ul>
+
+<h3>2. Physics-Informed ConvLSTM</h3>
+<p>
+We applied a <strong>Laplacian smoothing kernel</strong> to encourage predictions that obey diffusion-like spatial coherence.
+</p>
+<ul>
+  <li>Reduces noise artifacts</li>
+  <li>Produces smoother, more physically plausible predictions</li>
+  <li>Aligns with diffusion-driven microbial biofilm behavior</li>
+</ul>
+
+<h3>3. Ground→Flight Random Forest Model (Final Method)</h3>
+
+<p>This is the <strong>main contribution</strong> of the repository.</p>
+
+<p><strong>What it does:</strong></p>
+<ul>
+  <li>Uses <strong>only ground-side features</strong> (coverage, thickness, Ra*, material properties)</li>
+  <li>Maps these features to <strong>flight coverage outcomes</strong></li>
+  <li>Tests whether Earth-derived biofilm behavior predicts microgravity behavior</li>
+</ul>
+
+<p><strong>Training Input:</strong></p>
+<ul>
+  <li>DayInt</li>
+  <li>Ground coverage</li>
+  <li>Ground thickness</li>
+  <li>Ground roughness (biofilm)</li>
+  <li>Material properties (4 descriptors)</li>
+  <li>BaseMaterial (categorical)</li>
+</ul>
+
+<p><strong>Training Target:</strong> Mean <strong>flight</strong> coverage for the matched (material, day) pair.</p>
+
+<p><em>Importantly, no flight data is used as input.</em></p>
+
+<p><strong>Key Insight:</strong></p>
+<p>
+Despite training <strong>exclusively</strong> on Earth data, the model retained strong predictive structure in microgravity:
+</p>
+<ul>
+  <li><strong>R²_ground = 0.99</strong></li>
+  <li><strong>R²_flight = 0.96</strong></li>
+</ul>
+
+<p>This suggests biofilm-material relationships are surprisingly stable across gravity regimes.</p>
+
+<hr>
+
+<h2>📈 Key Results</h2>
+
+<ul>
+  <li>Synthetic ConvLSTM → Successful sanity check</li>
+  <li>Physics-informed ConvLSTM → Physically smoother predictions</li>
+  <li>Random Forest Ground→Ground: <strong>R² ≈ 0.99</strong></li>
+  <li>Random Forest Ground→Flight: <strong>R² ≈ 0.96</strong></li>
+</ul>
 
 <p>
-  Using this framework, we evaluate whether growth characteristics observed on Earth can be translated to microgravity conditions and estimate biofilm coverage on materials not experimentally tested in space. Time series prediction using ConvLSTM showed more than 90% accuracy in predicting growth patterns. Notably, a ground-only Random Forest model explained 99% of variance in terrestrial biofilm coverage and retained 96% explanatory power when predicting flight biofilm coverage despite never being exposed to microgravity data during training (R&sup2;<sub>ground</sub> = 0.99, R&sup2;<sub>flight</sub> = 0.96). These findings demonstrate the potential of scientific machine learning to guide material selection and microbial risk mitigation for future space missions.
+These results show that Earth-derived measurements contain reliable signatures that remain predictive in microgravity.
 </p>
 
+<hr>
 
-## Code Breakdown
-In this repository, there are six folders. Each of the folders are described below. 
+<h2>🚀 How to Run the Final Model</h2>
 
-Archive: This folder has archival code that was not used for our final submission. 
+<pre>
+cd Final_Model
+python strict_ground_to_flight_regression.py
+</pre>
 
-Baseline-ConvLSTM_Physics: This folder contains the physics-informed laplacian kernels that demonstrate a slight increase in accuracy.
+<p>Outputs saved to:</p>
 
-Baseline-Synthetic_Code: This folder contains the synthetically generated data and the ConvLSTM model that trains it. This is to demonstrate our morphological time-series prediction proof-of-concept. 
+<pre>
+lsds55_outputs_strict_g2f/
+    metrics.json
+    strict_ground_to_flight_predictions.csv
+    strict_ground_to_flight_pred_vs_actual.png
+</pre>
 
-Datasets: This folder contains the original NASA datasets that we used in this project. They are:
-- OSD-554
-    - rna-seq data
-- OSD-627
-    - microscopy image data
+<hr>
 
-Figures: This folder contains figures generated by the models.
+<h2>🖼️ Figures</h2>
 
-Final_Model: This folder contains the final Random Forest model that uses the NASA datasets to predict percent biofilm coverage spatiotemporally.
+<details>
+<summary><strong>Synthetic ConvLSTM Results</strong></summary>
+<p>(Insert image here)</p>
+</details>
 
+<details>
+<summary><strong>Physics-Informed Kernel Example</strong></summary>
+<p>(Insert image here)</p>
+</details>
 
-There are three main models represented in this project: Synthetic Data ConvLSTM, Physics ConvLSTM, and Main Data Random Forest. Each of these three are described below. 
+<details>
+<summary><strong>Ground→Flight Random Forest Predictions</strong></summary>
+<p>(Insert image here)</p>
+</details>
 
-## Synthetic Data ConvLSTM (housed in Baseline-Synthetic_Code)
-This code is a based on diffusion equation solving to create biofilm growth data.
+<hr>
 
-inputs
--- timesteps=50 (control how many images per run are saved.)
--- n_runs = 10 (controls how many trajectories are saved.)
+<h2>🙏 Acknowledgements</h2>
+<p>
+This work uses data from:
+</p>
+<ul>
+  <li><strong>NASA GeneLab OSD-627</strong> (Confocal Biofilm Morphology)</li>
+  <li><strong>NASA GeneLab OSD-554</strong> (RNA Transcriptomics)</li>
+</ul>
 
-outputs
--- 144X144 pixel image of the stochastic biofilm growth, timesteps number of images for each trajectory. In total n_runs trajectories.
+<hr>
 
-everything is saved in the bacteria_growth folder.
-
-- bacteria_growth
-    - run_000
-        - frame_000.png
-        - frame_001.png
-        - ...
-    - run_001
-    - ...
-
-## Physics ConvLSTM (housed in Baseline-ConvLSTM_Physics)
-
-The LSTM model introduces background noise, which can reduce the overall loss but becomes detrimental for long-term predictions. To address this issue, the model incorporates a diffusion-based term and a total directional gradient term into the loss function, ensuring that such noise is not favored during training. The diffusion-based loss is computed using a discrete Laplacian kernel [0 1 0; 1 -4 1; 0 1 0], which measures the curvature at each pixel. This curvature is then added to the loss, penalizing regions of high curvature and enforcing smoothness across the field. This smoothing effect reflects the outward, diffusive growth of biofilms, capturing essential physical behavior.
-
-Additionally, a total directional gradient loss is included to suppress artifacts that may arise from background noise such as checkerboard patterns. By penalizing abrupt variations in pixel intensity, this term further promotes a smooth and physically realistic background.
-
-## Main Data ConvLSTM (housed in Final_Model)
-
-This file reads the ground and flight data to create a ground-> flight regression model based on the percent coverage of the biofilm. It predicts trajectories per base material for the first two days to predict what the third day's percent coverage of the biofilm looks like.
-
-## Conclusions
-
-xyz
-
-## Acknowledgements
-
-Thank you to Dr. Pamela Flores (CU Boulder), Dr. Luis Zea (CU Boulder) and NASA for listing these datasets as open-access, as well as guiding us through questions we had regarding the datasets.
-
-
-## Appendix
-Previous models used in the Archive folder and their documentation is below. 
-
-
-## Baseline-convLSTM
-this is directly downloaded from the reference model. No changes are made. However when the code was tested, it was not producing results shown online.
-
-## Baseline-Conv_LSTM_with_biofilm.
-It is one of the most updated, model right now. It is made to work with synthetic data generated from "synthetic data code". Output of the code is copied into the folder "bacteria_growth".
-
-Inputs
--- bacteria_growth
-
-Outputs
--- trained_model.h5
--- comparison plots in the "results" folder.
-
-
-## Background-physics-Conv_LSTM_with_biofilm
-The LSTM model introduces background noise, which can reduce the overall loss but becomes detrimental for long-term predictions. To address this issue, the model incorporates a diffusion-based term and a total directional gradient term into the loss function, ensuring that such noise is not favored during training. The diffusion-based loss is computed using a discrete Laplacian kernel [0 1 0; 1 -4 1; 0 1 0], which measures the curvature at each pixel. This curvature is then added to the loss, penalizing regions of high curvature and enforcing smoothness across the field. This smoothing effect reflects the outward, diffusive growth of biofilms, capturing essential physical behavior.
-
-Additionally, a total directional gradient loss is included to suppress artifacts that may arise from background noise such as checkerboard patterns. By penalizing abrupt variations in pixel intensity, this term further promotes a smooth and physically realistic background.
-
-## Data 
-If you want to build growth trajectories for modeling:
-
-Parse s_OSD-627.txt to get:
-
-Spaceflight (Ground vs Space Flight)
-
-Material
-
-Time (1, 2, 3 days)
-
-Group by (Spaceflight, Material, Medium)
-
-Inside each group, sort by Time and then link the corresponding sample IDs:
-
-e.g. (Space Flight, SS316, LB+KNO₃) → {1.*, 7.*, 13.*}
-
-Then you have clean trajectories like:
-
-“Spaceflight SS316, LB+KNO₃: Day 1 → Day 2 → Day 3 = {1., 7., 13.*}”
-
-
-
-## pngs_max
-multilayer .tif files are converted to .png files by taking the maximum intensity of each pixel from the layers.
-
-## pngs_mean
-multilayer .tif files are converted to .png files by taking the average intensity of each pixel across layers.
-
-
-## pngs_max_split
-images split into 256X256 from pngs_max
-
-## pngs_mean_split
-images split into 256X256 from pngs_mean
+<h2>✔️ Final Notes</h2>
+<p>
+This repository demonstrates how <strong>scientific machine learning</strong>, guided by domain insight, can extract meaningful structure from extremely limited microgravity datasets. While not a full simulator of 3D biofilm dynamics, the models reveal stable cross-gravity relationships that can inform <strong>material selection</strong>, <strong>microbial risk assessment</strong>, and <strong>future spaceflight experiment design</strong>.
+</p>
