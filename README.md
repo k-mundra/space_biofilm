@@ -292,7 +292,7 @@ The validated ConvLSTM architecture on synthetic data provides a proof-of-concep
 
 ## Acknowledgements
 
-We thank Dr. Pamela Flores (CU Boulder), Dr. Luis Zea (CU Boulder), and NASA for making the OSD-554 and OSD-627 datasets publicly available and for their guidance throughout this project.
+We thank Dr. Pamela Flores (CU Boulder), Dr. Luis Zea (CU Boulder), and NASA for making the OSD-554 and OSD-627 datasets publicly available.
 
 ---
 
