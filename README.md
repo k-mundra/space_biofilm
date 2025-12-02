@@ -4,8 +4,6 @@
 
 Ankit Bansal, Aarushi Biswas, Aarushi Gajri, Kashvi Mundra
 
-[GitHub Repository](https://github.com/sciankit/space_biofilm)
-
 ---
 
 ## Overview
