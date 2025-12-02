@@ -2,7 +2,7 @@
 
 **CSE 8803 - Scientific Machine Learning Project**
 
-Ankit Bansal, Aarushi Biswas, Aarushi Gajri, Kashvi Mundra
+Stochastic Four (Ankit Bansal, Aarushi Biswas, Aarushi Gajri, Kashvi Mundra)
 
 ---
 
