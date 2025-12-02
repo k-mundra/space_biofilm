@@ -295,8 +295,6 @@ We thank Dr. Pamela Flores (CU Boulder), Dr. Luis Zea (CU Boulder), and NASA for
 
 ## Citation
 
-If you use this code or methodology, please cite:
-
 ```bibtex
 @misc{2025spacebiofilms,
   title={Space Biofilms: Predicting Bacterium-Material Interaction Dynamics in Microgravity Using Sequential Experimental Data},
