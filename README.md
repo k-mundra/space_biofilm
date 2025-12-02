@@ -6,7 +6,7 @@ Ankit Bansal, Aarushi Biswas, Aarushi Gajri, Kashvi Mundra
 
 ---
 
-## Overview
+## Overview (Abstract)
 
 Biofilm growth poses significant risks to astronaut health, life-support systems, and spacecraft materials during long-duration missions. This creates an imperative to study their growth parameters; however, experimental characterization of biofilm behavior in microgravity remains costly and limited, restricting the ability to evaluate microbial risk in spaceflight environments.
 
@@ -57,15 +57,13 @@ space_biofilm/
 
 **File:** `Baseline-Synthetic_Code/synthetic.ipynb`
 
-We needed to verify that ConvLSTMs could learn biofilm growth patterns, so we generated fake data using diffusion equations. The model learned to predict biofilm evolution with >90% accuracy on synthetic sequences.
+This ConvLSTM model predicts biofilm evolution with >90% accuracy on synthetic sequences. It was trained with diffusion-equation generated synthetic data.
 
 **Inputs:** 
 - `timesteps=50` (frames per sequence)
 - `n_runs=10` (number of trajectories)
 
 **Output:** 144×144 pixel images saved to `bacteria_growth/run_XXX/frame_XXX.png`
-
-This validated our architecture.
 
 ---
 
@@ -84,13 +82,13 @@ Regular LSTMs produce noisy outputs, so we added two physics-based loss terms:
 
 2. **Gradient penalty** - Removes checkerboard artifacts
 
-Result: cleaner predictions that look like actual biofilm growth.
+Result: cleaner predictions.
 
 ---
 
 ### 3. Random Forest Models (Main Results)
 
-After starting the project, we discovered the NASA dataset doesn't have true time-series data - "Day 1", "Day 2", "Day 3" are actually different samples, not the same biofilm over time. So we pivoted to predicting **biofilm coverage percentage** instead of morphological evolution.
+Since it was discovered that the NASA dataset doesn't have true time-series data in that "Day 1", "Day 2", "Day 3" are actually different samples, not the same biofilm over time. So we pivoted to predicting **biofilm coverage percentage** instead of morphological evolution.
 
 #### Baseline: Ground-Only Random Forest
 
@@ -104,7 +102,7 @@ Simple baseline trained and tested only on Earth data. R² = 0.99 on ground samp
 
 **File:** `Final_Model/methodA.py`
 
-Tries to learn a direct mapping from ground biofilm features to flight coverage using matched material samples.
+Learns a direct mapping from ground biofilm features to flight coverage using matched material samples.
 
 **Training:**
 - Input: ground coverage, material properties, morphological features
@@ -116,7 +114,7 @@ cd Final_Model
 python methodA.py
 ```
 
-**Results:** R² = 0.50 after calibration. Works okay but struggles with the Earth→Space domain shift.
+**Results:** R² = 0.50 after calibration. Struggles with the Earth→Space domain shift.
 
 **Outputs saved to:** `lsds55_outputs_methodA/`
 
@@ -126,7 +124,7 @@ python methodA.py
 
 **File:** `Final_Model/methodB.py`
 
-Key idea: train on Earth data, then test on space data to see if the patterns generalize.
+Trains on Earth data, then tests on space data to see if the patterns generalize.
 
 **Training:**
 - Data: Ground samples only
@@ -148,8 +146,6 @@ python methodB.py
 - **Flight testing: R² = 0.96** (never saw space data during training!)
 - Flight RMSE: 8.0%, MAE: 6.3%
 
-The model learned relationships from Earth that generalized to microgravity.
-
 **Outputs:**
 - Initial results: `lsds55_outputs_expertA_methodB/`
 - Final plots: `expertA_finalResults/`
@@ -164,7 +160,6 @@ The model learned relationships from Earth that generalized to microgravity.
 - 3 time points: Day 1, 2, 3
 - Parallel ground and flight experiments
 
-**Important caveat:** Different days = different physical samples (not a true time series)
 
 ### NASA OSD-554 (RNA-seq)
 - Gene expression data
@@ -172,40 +167,12 @@ The model learned relationships from Earth that generalized to microgravity.
 
 ---
 
-## Running Models
+## Prerequisites to Run Models
 
-**Prerequisites:**
 ```bash
 pip install tensorflow scikit-learn numpy pandas matplotlib opencv-python
 ```
-
-**1. Synthetic ConvLSTM:**
-```bash
-jupyter notebook Baseline-Synthetic_Code/synthetic.ipynb
-```
-
-**2. Physics ConvLSTM:**
-```bash
-jupyter notebook Baseline-ConvLSTM_Physics/convlstm_physics_integration.ipynb
-```
-
-**3. Method A:**
-```bash
-cd Final_Model
-python methodA.py
-```
-
-**4. Method B (recommended):**
-```bash
-cd Final_Model
-python methodB.py
-```
-
-**5. Full notebook with all experiments:**
-```bash
-jupyter notebook Final_Model/sciml_MoE.ipynb
-```
-
+Python 3.8+
 ---
 
 ## Takeaways
@@ -217,19 +184,10 @@ jupyter notebook Final_Model/sciml_MoE.ipynb
 
 ---
 
-## Future Directions
-
-- Acquire Temporally-Connected Data: Enable true ConvLSTM-based morphological prediction
-- Multi-Material Transfer Learning: Improve generalization across diverse spacecraft materials
-- Physics-Hybrid Models: Combine ConvLSTM with diffusion-reaction PDEs
-- Gene Expression Integration: Incorporate RNA-seq data for mechanism-aware predictions
-- Active Learning: Guide future space experiments by identifying high-uncertainty material combinations
-
----
-
 ## Conclusion
 
 This project demonstrates that scientific machine learning can effectively bridge the gap between Earth-based biofilm experiments and spaceflight observations. Despite the absence of true temporal connectivity in the available data, our Expert A model achieved 96% explanatory power on flight biofilm coverage after training exclusively on ground data. This suggests that fundamental morphology-coverage relationships are preserved across gravity regimes, enabling predictive material selection for future space missions.
+
 The validated ConvLSTM architecture on synthetic data provides a proof-of-concept for spatiotemporal biofilm modeling, which can be applied when temporally-connected datasets become available. Together, these approaches establish a scalable SciML framework for microbial risk assessment in spaceflight environments.
 
 ---
