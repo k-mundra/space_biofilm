@@ -182,10 +182,6 @@ Python 3.8+
 3. **Physics-informed losses help** - Adding diffusion constraints reduces artifacts
 4. **Domain shift is real** - Direct ground→flight mapping (Method A) struggles without careful feature engineering
 
----
-
-## Conclusion
-
 This project demonstrates that scientific machine learning can effectively bridge the gap between Earth-based biofilm experiments and spaceflight observations. Despite the absence of true temporal connectivity in the available data, our Expert A model achieved 96% explanatory power on flight biofilm coverage after training exclusively on ground data. This suggests that fundamental morphology-coverage relationships are preserved across gravity regimes, enabling predictive material selection for future space missions.
 
 The validated ConvLSTM architecture on synthetic data provides a proof-of-concept for spatiotemporal biofilm modeling, which can be applied when temporally-connected datasets become available. Together, these approaches establish a scalable SciML framework for microbial risk assessment in spaceflight environments.
