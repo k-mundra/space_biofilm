@@ -1,6 +1,4 @@
-# Space Biofilms: Predicting Bacterium-Material Interaction
-Dynamics in Microgravity Using Sequential Experimental
-Data
+# Space Biofilms: Predicting Bacterium-Material Interaction Dynamics in Microgravity Using Sequential Experimental Data
 
 **CSE 8803 - Scientific Machine Learning Project**
 
