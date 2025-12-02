@@ -199,7 +199,7 @@ Thank you to Dr. Pamela Flores (CU Boulder), Dr. Luis Zea (CU Boulder), and NASA
 ## Citation
 
 ```bibtex
-@misc{bansal2025spacebiofilms,
+@misc{2025spacebiofilms,
   title={Space Biofilms: Predicting Bacterium-Material Interaction Dynamics in Microgravity},
   author={Bansal, Ankit and Biswas, Aarushi and Gajri, Aarushi and Mundra, Kashvi},
   year={2025},
