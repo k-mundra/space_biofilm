@@ -4,8 +4,6 @@ Scientific Machine Learning Course Project (CSE 8803-SML)
 
 Ankit Bansal, Aarushi Biswas, Aarushi Gajri, Kashvi Mundra
 
-Overleaf document: https://www.overleaf.com/6681458395rnncqfcpswqm#5edb39
-
 
 ## Overview
 
