@@ -132,7 +132,7 @@ Trains on Earth data, then tests on space data to see if the patterns generalize
 - Output: ground coverage percentage
 
 **Testing:**
-- Input: Flight morphological features (thickness, roughness, etc.) - **no material properties used**
+- Input: Flight morphological features (thickness, roughness, etc.)
 - Output: predicted flight coverage
 
 **Run it:**
