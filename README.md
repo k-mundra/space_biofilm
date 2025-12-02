@@ -64,7 +64,9 @@ everything is saved in the bacteria_growth folder.
 
 ## Physics ConvLSTM (housed in Baseline-ConvLSTM_Physics)
 
-This model does xyz (update later)
+The LSTM model introduces background noise, which can reduce the overall loss but becomes detrimental for long-term predictions. To address this issue, the model incorporates a diffusion-based term and a total directional gradient term into the loss function, ensuring that such noise is not favored during training. The diffusion-based loss is computed using a discrete Laplacian kernel [0 1 0; 1 -4 1; 0 1 0], which measures the curvature at each pixel. This curvature is then added to the loss, penalizing regions of high curvature and enforcing smoothness across the field. This smoothing effect reflects the outward, diffusive growth of biofilms, capturing essential physical behavior.
+
+Additionally, a total directional gradient loss is included to suppress artifacts that may arise from background noise such as checkerboard patterns. By penalizing abrupt variations in pixel intensity, this term further promotes a smooth and physically realistic background.
 
 ## Main Data ConvLSTM (housed in Final_Model)
 
