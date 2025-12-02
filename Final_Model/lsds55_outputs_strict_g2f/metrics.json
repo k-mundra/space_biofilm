@@ -1,0 +1,26 @@
+{
+  "strict_ground_to_flight": {
+    "rmse": 28.096498149980864,
+    "mae": 23.07537724037421,
+    "r2": 0.5021886680788368,
+    "n": 6,
+    "calibration_a": -20.43978786518256,
+    "calibration_b": 2.2410182636970144,
+    "n_pairs_total": 18,
+    "n_train_pairs": 12,
+    "n_test_pairs": 6,
+    "numeric_features": [
+      "DayInt",
+      "ground_coverage_mean",
+      "ground_max_thickness_mean",
+      "ground_roughness_bio_mean",
+      "Material_Roughness",
+      "Contact_Angle",
+      "Cos_theta",
+      "Wadh"
+    ],
+    "categorical_features": [
+      "BaseMaterial"
+    ]
+  }
+}
