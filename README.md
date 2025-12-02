@@ -75,8 +75,8 @@ This repository develops a multimodal <strong>scientific machine learning (SciML
   </li>
 </ul>
 
-<h3>2. NASA OSD-554 — RNA Transcriptomics (Optional)</h3>
-<p>Gene expression profiles for matched conditions; used for multimodal extensions.</p>
+<h3>2. NASA OSD-554 — RNA Transcriptomics</h3>
+<p>This dataset is included as an optional leg. Gene expression profiles for matched conditions; used for multimodal extensions.</p>
 
 <h3>3. Material Property Features</h3>
 
