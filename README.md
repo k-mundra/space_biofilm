@@ -155,7 +155,7 @@ python methodA.py
 - Hyperparameter tuning via 3-fold cross-validation
 
 **Training:**
-- **Inputs:** Ground morphological features, material properties, day, condition
+- **Inputs:** Ground morphological features, day, condition
 - **Outputs:** Ground biofilm surface coverage
 - **Training set:** Ground samples only
 
